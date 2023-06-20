@@ -1,7 +1,7 @@
  :root {
 --branco-principal: #ffffff;
 --cinza-secundario: #C0C0C0;
---botao-azul: #9cfd00;
+--botao-azul: #000000;
 --cor-de-fundo: #131313;
 }
 
@@ -13,6 +13,20 @@ body {
 .cabecalho-imagem{
    width: 20%;
 
+}
+
+.container {
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 33% 33% 33%;
+}
+
+.container__botao {
+   background-color: var(--botao-azul);
+   border-radius: 5px;
+   padding: 1em;
+   color: var(--branco-principal);
+   display: block;
 }
    
 
