@@ -20,7 +20,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url(img/waltersustos.png.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -49,7 +49,7 @@ body {
 }
 
 .container__aviso {
-    font-size: 12px;
+    font-size: 25px;
     color: var(--cinza-secundario);
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 70%;
 }
 
 .secundario {
